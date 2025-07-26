@@ -1,0 +1,9 @@
+
+mediapipe==0.10.21
+opencv-python==4.11.0.86
+numpy<2
+simpleaudio==1.0.4
+psutil>=5.9
+# TFLite runtime wheels are platform-specific; fallback to full TF on Windows
+tensorflow==2.15.0; platform_system=='Windows'
+tensorflow==2.15.0 ; platform_system!='Windows'
